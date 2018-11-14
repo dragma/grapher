@@ -1,0 +1,40 @@
+{
+  "name": "grapher",
+  "version": "1.0.0",
+  "description": "graph database graphql orm",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/babel src -d dist",
+    "build:watch": "./node_modules/.bin/babel src -d dist --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dragma/grapher.git"
+  },
+  "keywords": [
+    "orm",
+    "graph",
+    "database",
+    "graphql"
+  ],
+  "author": "Florent Béjina",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dragma/grapher/issues"
+  },
+  "homepage": "https://github.com/dragma/grapher#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^5.8.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  },
+  "dependencies": {
+    "nodemon": "^1.18.5"
+  }
+}
